@@ -36,7 +36,7 @@ public class MultipleTextRandomColour : MonoBehaviour
     #endregion
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         //Set the size of the textToString[] to be the same size as the uiText[].
         textToString = new string[uiText.Length];
